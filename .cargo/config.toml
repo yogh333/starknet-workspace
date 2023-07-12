@@ -1,0 +1,10 @@
+[unstable]
+build-std = ["core"]
+build-std-features = ["compiler-builtins-mem"]
+profile-rustflags = true
+
+[build]
+target = "nanosplus"
+
+[profile.release.package.compiler_builtins]
+rustflags = ["-Zshare-generics=off"]

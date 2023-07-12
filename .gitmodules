@@ -1,0 +1,13 @@
+[submodule "nano-rapp-starknet"]
+	path = nano-rapp-starknet
+	url = git@github.com:LedgerHQ/nano-rapp-starknet.git
+	branch = feat/plugin_call
+[submodule "plugin_starknetid"]
+	path = plugin_starknetid
+	url = git@github.com:Th0rgal/plugin_starknetid.git
+[submodule "plugin-bettermulticall"]
+	path = plugin-bettermulticall
+	url = git@github.com:LedgerHQ/plugin-bettermulticall.git
+[submodule "plugin-erc20"]
+	path = plugin-erc20
+	url = git@github.com:LedgerHQ/plugin-erc20.git

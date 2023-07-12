@@ -1,0 +1,17 @@
+[workspace]
+
+members = [
+	"nano-rapp-starknet",
+	"plugin-erc20",
+	"plugin-bettermulticall",
+	"plugin_starknetid",
+]
+resolver = "2"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+opt-level = 'z' 
+lto = true
